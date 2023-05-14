@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <style>
+       header,footer{
+  position: absolute;
+  background-color: #f44336;
+  width:100%;
+}
+header h2{
+  font-family: times new roman;
+  position: absolute;
+  margin-top: 20px;
+  left: 10%;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+header{
+  height: 10vh;
+  margin-top:-150px; 
+}
+footer{
+  height: 13vh;
+  bottom: 0px;
+}
+.nav{
+  position: absolute;
+  width: 100%;
+
+}
+.nav a{
+  position: relative;
+  left: 75%;
+  top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  {
+  color: var(--pink);
+}
+ 
+}
+footer p{
+  position: absolute;
+  left: 46%;
+  bottom: 0px;
+  color: white;
+}
+      body {
+        font-family: times new roman;
+  background-image: url('food1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+body {
+      margin: 0;
+      padding: 0;
+    }
+      #signup-form {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 150px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+      input[type="submit"] {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color:#b30000;
+      }
+    </style>
+  </head>
+  <body>
+     <header>
+    <h2>SAM Restauarant</h2>
+
+    <div class="nav">
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/menu/index.html">Menu</a>
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/checkout.html">Checkout</a>
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/thanks.html">About us</a>
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/sign%20Up.html">Sign up</a>
+    </div>
+  </header>
+  <footer>
+    
+    <p>Designed by:<br>Samra Saleem - 22i2727<br>Amna Hassan - 22i8759<br>Miral Hasan - 22i8753</p>
+
+  </footer>
+    <div id="signup-form">
+      <h1>Sign Up</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Sign Up">
+      </form>
+    </div>
+  </body>
+</html>

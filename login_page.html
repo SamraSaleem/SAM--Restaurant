@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+<style>
+  header,footer{
+  position: absolute;
+  background-color: #f44336;
+  width:100%;
+}
+header h2{
+  position: absolute;
+  margin-top: 20px;
+  left: 10%;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+header{
+  height: 10vh;
+  margin-top:-10px; 
+}
+footer{
+  height: 13vh;
+  bottom: 0px;
+}
+.nav{
+  position: absolute;
+  width: 100%;
+
+}
+.nav a{
+  position: relative;
+  left: 75%;
+  top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  a:hover
+  {
+  color: var(--pink);
+}
+}
+footer p{
+  position: absolute;
+  left: 46%;
+  bottom: 0px;
+  color: white;
+}
+   body {
+    font-family: times new roman;
+  background-image: url('food1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center
+}
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .Login {
+      font-family: times new roman;
+      background-color: #fff;
+      padding: 70px 20px;
+      border-radius: 20px;
+      box-sizing: border-box;
+      max-width: 400px;
+      height: 400px;
+      top: 20%;
+      transform: translate(125%, -5%);
+      margin: auto;
+      position: absolute;
+
+    }
+    input[type=text], input[type=password] {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 20px;
+
+      border: none;
+      border-radius: 3px;
+      box-shadow: 0px 0px 5px #aaa;
+    }
+    h1{
+      text-align: center;
+    }
+    input[type=submit] {
+      background-color: #f44336;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+    input[type=submit]:hover {
+      background-color: #b30000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>SAM Restauarant</h2>
+
+    <div class="nav">
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/menu/index.html">Menu</a>
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/checkout.html">Checkout</a>
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/thanks.html">About us</a>
+      <a href="file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/sign%20Up.html">Sign up</a>
+    </div>
+  </header>
+  <footer>
+    
+    <p>Designed by:<br>Samra Saleem - 22i2727<br>Amna Hassan - 22i8759<br>Miral Hasan - 22i8753</p>
+
+  </footer>
+  <div class="Login">
+    <h1>Login</h1>
+
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+
+    <input type="submit" value="Login">
+    <a href = "file:///C:/Users/samra%20saleem/Documents/Sublime%20Text%203/menu/index.html">Login</a>
+  </div>
+
+</body>
+</html>
